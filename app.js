@@ -16,10 +16,6 @@ const url = "https://simpsons-quotes-api.herokuapp.com/quotes";
 });
 }
 
-const myBtn = document.getElementById("myBtn");
-myBtn.addEventListener("click", function() {
-    fetchSimpsonJSON() 
-});
-
+document.getElementById("myBtn").addEventListener("click", fetchSimpsonJSON) 
 
 fetchSimpsonJSON();
