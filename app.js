@@ -15,5 +15,5 @@ const url = "https://simpsons-quotes-api.herokuapp.com/quotes";
         document.querySelector('#simpson-quote').innerHTML = simpsonHtml;
 });
 }
-  
+
 fetchSimpsonJSON();
